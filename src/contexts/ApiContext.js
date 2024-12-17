@@ -43,7 +43,7 @@ export const ApiProvider=({children})=>{
     }
     const postAdat = async(vegpont, data)=>{
         try{
-            const response = await MyAxios.post(vegpont+data);
+            const response = await MyAxios.post(vegpont,data);
             console.log("Feltöltve",response.data)
             return response.data
         }catch(err){

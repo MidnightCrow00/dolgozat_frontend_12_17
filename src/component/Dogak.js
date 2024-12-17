@@ -7,8 +7,7 @@ export default function Dogak(props) {
     <Row>
       <Container className="mt-4">
         <h2 className="text-center mb-4">Admin oldal</h2>
-        <Col md={4} lg={12}>
-          <Table table table-striped table-bordered>
+          <Table className="table table-striped table-bordered">
             <thead>
               <tr>
                 <th>Szakdolgozat címe</th>
@@ -24,7 +23,6 @@ export default function Dogak(props) {
               })}
             </tbody>
           </Table>
-        </Col>
       </Container>
     </Row>
   );

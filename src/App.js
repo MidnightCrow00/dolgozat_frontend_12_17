@@ -10,16 +10,13 @@ function App() {
   const {szakdogaLista}=useContext(ApiContext)
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
       <Row>
-        <Col xs={6} md={6} lg={12}>
+        <Col xs={3} md={6} lg={12}>
           <article>
             <Dogak szakdogaLista={szakdogaLista}/>
           </article>
         </Col>
-        <Col xs={6} md={6} lg={12}>
+        <Col xs={3} md={6} lg={12}>
           <aside>
             <Urlap />
           </aside>
